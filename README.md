@@ -36,13 +36,13 @@ After scripting queries using *“pgAdmin”* to setup a database in PostgreSQL 
 [Mentorship Program](https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv)
 
 ## Summary:
--	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+1.	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
   -	With a large portion of employees eligible for the retirement package, it is imperative for *PH* to fill the vacancy. Luckily not everyone is expected to retire all at the       same time. 
   -	A new query was made to find out the number of eligible employees by titles for each year, starting with the oldest and most likely to retire. This first surge from the        “silver tsunami” will give the company an idea of how many roles will need to be filled over the next five years and into future. 
 
 ![]( https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/count%20of%20retirees%20in%2052.PNG) 
 
--	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+2.	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
   - Based on the total number of qualified employees in the departments to mentor future PH employees (see below image for total), the initial answer is no. 
   -	If *PH* expanded the birth data criteria from a single year (1965) to four years (1962-1965) the number of qualified employees for the mentorship program exponentially grows     and will be better suited to fulfill the requirements need by Pewlett Hackard. (See below image for new total)
 
