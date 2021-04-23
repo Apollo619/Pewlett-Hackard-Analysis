@@ -11,25 +11,25 @@ After scripting queries using *“pgAdmin”* to setup a database in PostgreSQL 
 ![]( https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/query%20script.PNG)
 
 1.	One of the first bit of information to collect was the number of employees eligible for the retirement packaged. It was determined that any employee born between January 1st, 1952 and December 31st, 1955 fit this criteria. (See image for total number of employees.) 
--	For a breakdown of eligible employees and their work information, click on the below link *” Retirement Titles”*.
+  -	For a breakdown of eligible employees and their work information, click on the below link *” Retirement Titles”*.
 
 ![]( https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/Number%20of%20employees%20eligible%20for%20retirement_retirement_titles.PNG)
 
 [Retirement Titiles](https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
 
 2.	Although the total number of employees that qualified for the retirement package was calculated (see above image for total). When looking through the employee information, it became clear that several of the employees were listed multiple time due to title changes. 
--	The next step was to generate another table for the true value based on most recent titles. (see below image for new total)
+  -	The next step was to generate another table for the true value based on most recent titles. (see below image for new total)
 
-[](https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/Number%20of%20employees%20eligible%20for%20retirement_unique_titles.PNG)
+![](https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/Number%20of%20employees%20eligible%20for%20retirement_unique_titles.PNG)
 
 3.	Once this information was tabulated, an alternate table set was developed to find out how many employees for each position would potentially need to be filled. 
--	This was done by counting the qualified employees and their current titles within the company. (See image below for exact number by department.)
+  -	This was done by counting the qualified employees and their current titles within the company. (See image below for exact number by department.)
 
 ![]( https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/retiring%20titles.PNG) 
 
 4.	After seeing numerous eligible employees for a retirement package (~31%), it was determined that *PH* would need to start a *” Mentorship Program”* in order to avoid any possible gaps in working knowledge for current employees and future employees.  
--	An additionally table was made (see below image) to determine how many employees born between January 1st, 1965 and December 31st, 1965 would be considered for the mentorship program.
--	Click on the below link for employee information regarding *Mentorship Program*.
+  -	An additionally table was made (see below image) to determine how many employees born between January 1st, 1965 and December 31st, 1965 would be considered for the         mentorship program.
+  -	Click on the below link for employee information regarding *Mentorship Program*.
 
 ![]( https://github.com/Apollo619/Pewlett-Hackard-Analysis/blob/main/Resources/mentorship%20table.PNG)
 
